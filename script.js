@@ -18,14 +18,10 @@ tl.from(".center1 button",{
     opacity:0,
     duration:1.2,
 })
-const images = document.querySelectorAll(".center2 img");
-
-    // Animate each image with a staggered delay
-    tl.from(images, {
-        opacity: 0,
-        duration: 1,
-        stagger: 1, // 1-second delay between each image's appearance
-    }, "-=1");
+tl.from(".center2 img",{
+    opacity:0,
+    duration:0.5
+},"-=1")
 tl.from(".section1bottom img",{
     opacity: 0,
     y:40,
