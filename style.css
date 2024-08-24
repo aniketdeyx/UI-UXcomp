@@ -1,0 +1,232 @@
+@font-face {
+    font-family: japan;
+    src: url(./3856NeueMachina.woff2);
+}  
+@font-face {
+    font-family: china;
+    src: url(./Avantt-Regular.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(77, 10, 10);
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+nav h4 {
+    font-size: large;
+    color: antiquewhite;
+    padding: 10px 30px;
+}
+
+.center {
+    padding: 70px 70px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.center1 {
+    height: 100%;
+    width: 40%;
+}
+
+.center2 {
+    height: 100%;
+    width: 60%;
+    overflow: hidden; /* Prevents the image from overflowing the container */
+}
+
+.center1 h2 {
+    font-size: 80px;
+    color: antiquewhite;
+    font-family: 'japan';
+}
+
+button {
+    margin: 40px 160px;
+    padding: 10px 40px;
+    background-color: rgb(183, 109, 12);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'japan';
+}
+
+.center2 img {
+    height: 100%;
+    width: 100%; 
+    object-fit: cover; /* Maintains aspect ratio while covering the container */
+    position: relative; 
+}
+
+.section1bottom {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 50px 50px;
+    
+}
+.section2 {
+    padding: 300px 0; 
+    margin-top: 20px; 
+    text-align: center; 
+    
+
+}
+.section2 button{
+    padding: 10px 95px;
+    border-radius: 25px;
+    font-weight: bolder;
+    border-style: dashed;
+}
+.des{
+    display: flex;
+    /* font-family: 'china'; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+    color: beige;
+    font-size: 30px;
+    line-height: 1;
+}
+#one{
+    width:15%;
+    font-family: 'china';
+    margin-top: -40px;
+    
+}
+#two{
+    width:15%;
+    margin-left: 145px;
+    font-family: 'china';
+    margin-top: -40px;
+}#three{
+    width:15%;
+    font-family: 'china';
+    margin-left: 145px;
+    margin-top: -40px;
+    
+}#four{
+    width:15%;
+    font-family: 'china';
+    margin-left: 95px;
+    margin-top: -40px;
+}#five{
+    width:10%;
+    margin-left: 150px;
+    font-family: 'china';
+    margin-right: 20px;
+    margin-top: -40px;
+    
+}#six{
+    width:10%;
+    font-family: 'china';
+    margin-left: 150px;
+    margin-top: -40px;
+}
+.container{
+    height: 86%;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.elem{
+    flex-shrink: 0;
+    height: 300px;
+    width: 47%;
+    border: 3px solid beige;
+    border-radius: 40px;
+    /* background-color: aqua; */
+    margin: 15px;
+    box-shadow: 0px 15px 0px black;
+    padding: 70px;
+    display: flex;
+    background-color: rgb(228, 137, 19);
+}
+.elem1{
+    height: 100%;
+    width: 50%; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elem2{
+    height: 100%;
+    width: 50%;
+    padding-bottom: 20px;
+    
+}
+.elem2 img{
+    height: 150%;
+    width: 100%;;
+}
+.elem1 h5{
+    font-family: 'china';
+    color: beige;
+    font-size: 40px;
+    background-color: rgb(203, 66, 7);
+    font-weight: 500;
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
+.elem1 h6{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: rgb(15, 15, 14);
+    font-weight: bolder;
+   
+    
+}
+.elem1 h6 i{
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: rgb(11, 11, 11);
+}
+.black{
+    background-color: blanchedalmond;
+}
+#extra{
+    width: 100px;
+    height: 100px;
+   
+}
